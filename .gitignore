@@ -1,0 +1,45 @@
+# Sensible Konfigurationsdateien - NIEMALS ins Repository!
+.env
+*.env
+!.env.example
+
+# Python-spezifische Dateien
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+
+# Windows-spezifische Dateien
+Thumbs.db
+Desktop.ini
+*.lnk
+.DS_Store
+
+# Log-Dateien
+*.log
+logs/
+
+# Backup-Dateien
+*.backup
+*.tar.gz
+*.zip
+
+# Temporäre Dateien
+*.tmp
+*.temp
+~$*
+
+# Editor-Dateien
+.vscode/
+*.swp
+*~
+.idea/
+
+# Bot-spezifische State-Dateien
+bot_state.pickle*
+
+# Systemd-spezifische Dateien
+*.service.bak
